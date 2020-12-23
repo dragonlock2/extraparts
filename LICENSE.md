@@ -1,5 +1,7 @@
 ### Extraparts License
 
+Extraparts is defined as everything except the extraparts3d folder. The extraparts3d folder contains files that are not my own creation and are redistributed for convenience.
+
 Extraparts is licensed under the [Creative Commons CC-BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/legalcode), with the following exception:
 
 ---------
