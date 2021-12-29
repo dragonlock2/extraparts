@@ -10,7 +10,7 @@ Add the path to extraparts.pretty/ to your project's Footprint Libraries.
 
 ### Symbols
 
-Add the path to extraparts.lib to your project's Symbol Libraries.
+Add the path to extraparts.kicad_sym to your project's Symbol Libraries.
 
 ### 3d Models
 
