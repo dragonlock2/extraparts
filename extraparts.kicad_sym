@@ -392,7 +392,7 @@
     (property "Value" "LS05-13BxxR3" (id 1) (at 0 11.43 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Converter_ACDC:Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical" (id 2) (at 0 0 0)
+    (property "Footprint" "extraparts:LS05-13BxxR3" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
