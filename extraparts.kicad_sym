@@ -2872,11 +2872,11 @@
         (name "IREF" (effects (font (size 1.27 1.27))))
         (number "26" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 15.24 15.24 180) (length 2.54)
+      (pin power_out line (at 15.24 15.24 180) (length 2.54)
         (name "VCOMH" (effects (font (size 1.27 1.27))))
         (number "27" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 15.24 12.7 180) (length 2.54)
+      (pin power_out line (at 15.24 12.7 180) (length 2.54)
         (name "VDisplay" (effects (font (size 1.27 1.27))))
         (number "28" (effects (font (size 1.27 1.27))))
       )
@@ -2904,7 +2904,7 @@
         (name "VBAT" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
       )
-      (pin input line (at -15.24 -15.24 0) (length 2.54) hide
+      (pin no_connect line (at -15.24 -15.24 0) (length 2.54) hide
         (name "NC" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
