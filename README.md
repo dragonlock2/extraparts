@@ -14,4 +14,4 @@ Add the path to extraparts.kicad_sym to your project's Symbol Libraries.
 
 ### 3d Models
 
-Open up Footprint Editor > Preferences > Configure Paths... and add an entry under "3D Search Paths" with "extraparts3d" for Alias and the full path to extraparts3d/ for Path.
+Go to Preferences > Configure Paths... and add an entry for "EXTRAPARTS3D" pointing to the full path of `extraparts3d/`.
