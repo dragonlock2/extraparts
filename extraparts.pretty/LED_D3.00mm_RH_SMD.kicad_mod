@@ -1,29 +1,149 @@
-(footprint "LED_D3.00mm_RH_SMD" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 61D8FCB8)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 3.75) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 35d675cb-cefb-4d70-bd0b-47acfbef216e)
-  )
-  (fp_text value "LED_D3.00mm_RH_SMD" (at 0 5.25) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp ccc7bc23-b757-4172-bb33-c6b6890b16af)
-  )
-  (fp_text user "PCB Edge" (at 0 -3.25) (layer "F.Fab")
-    (effects (font (size 0.3 0.3) (thickness 0.06)))
-    (tstamp 6b3194aa-aa1b-4405-a345-aef429258594)
-  )
-  (fp_line (start -2 2.75) (end 2 2.75) (layer "F.CrtYd") (width 0.12) (tstamp 130e831a-bb6d-4e62-99af-74dfd8e81fc5))
-  (fp_line (start 2 2.75) (end 2 -2.75) (layer "F.CrtYd") (width 0.12) (tstamp 5d875c52-fc7d-4318-a9ce-e4378d3acecf))
-  (fp_line (start -2 -2.75) (end -2 2.75) (layer "F.CrtYd") (width 0.12) (tstamp cc05e239-7191-461e-b138-7ba072a6b42a))
-  (fp_line (start 2 -2.75) (end -2 -2.75) (layer "F.CrtYd") (width 0.12) (tstamp d725faf0-9f2e-4cbd-bc2b-7c30427271a8))
-  (fp_line (start -2 -2.75) (end 2 -2.75) (layer "F.Fab") (width 0.12) (tstamp 72da2fd9-5bbf-4937-ba5a-d4c74fc998ec))
-  (pad "1" smd rect (at -1.25 0) (size 1 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ff9d6cd1-2bba-416e-b6b3-9efc061ffd02))
-  (pad "2" smd rect (at 1.25 0) (size 1 5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 83d7cd2b-e6c1-4f09-a77c-65ed4d831fe4))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Clear.wrl"
-    (offset (xyz -1.27 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 0 0))
-  )
+(footprint "LED_D3.00mm_RH_SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.75 0)
+		(layer "F.SilkS")
+		(uuid "35d675cb-cefb-4d70-bd0b-47acfbef216e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_D3.00mm_RH_SMD"
+		(at 0 5.25 0)
+		(layer "F.Fab")
+		(uuid "ccc7bc23-b757-4172-bb33-c6b6890b16af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4113882f-f43c-4059-a46c-e762854d987c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5271983-0b12-4f0f-9a16-8a37a90fccb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "990e7c74-990c-4d0a-a4a1-05654194faa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2 -2.75)
+		(end -2 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc05e239-7191-461e-b138-7ba072a6b42a")
+	)
+	(fp_line
+		(start -2 2.75)
+		(end 2 2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "130e831a-bb6d-4e62-99af-74dfd8e81fc5")
+	)
+	(fp_line
+		(start 2 -2.75)
+		(end -2 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d725faf0-9f2e-4cbd-bc2b-7c30427271a8")
+	)
+	(fp_line
+		(start 2 2.75)
+		(end 2 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d875c52-fc7d-4318-a9ce-e4378d3acecf")
+	)
+	(fp_line
+		(start -2 -2.75)
+		(end 2 -2.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72da2fd9-5bbf-4937-ba5a-d4c74fc998ec")
+	)
+	(fp_text user "PCB Edge"
+		(at 0 -3.25 0)
+		(layer "F.Fab")
+		(uuid "6b3194aa-aa1b-4405-a345-aef429258594")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 1 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff9d6cd1-2bba-416e-b6b3-9efc061ffd02")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 1 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "83d7cd2b-e6c1-4f09-a77c-65ed4d831fe4")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Clear.wrl"
+		(offset
+			(xyz -1.27 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
 )

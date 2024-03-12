@@ -1,14 +1,75 @@
-(footprint "barrel_3.5mm" (version 20211014) (generator pcbnew)
-  (layer "F.Cu")
-  (tedit 0)
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -6.25 unlocked) (layer "F.SilkS")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 6e913226-47a3-477e-8090-87191ffa69cb)
-  )
-  (fp_text value "barrel_3.5mm" (at 0 -4.75 unlocked) (layer "F.Fab")
-    (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3c91c033-497d-4bbe-bd19-dae384f41f56)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 7.6 7.6) (drill 4.4) (layers *.Cu *.Mask) (tstamp aae412ce-1e9f-4d9a-aeea-4d503f12e362))
+(footprint "barrel_3.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6e913226-47a3-477e-8090-87191ffa69cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "barrel_3.5mm"
+		(at 0 -4.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c91c033-497d-4bbe-bd19-dae384f41f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "726e24e3-b8a4-4d47-bb46-17c023beafb6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b6e0c1b-b069-4e7a-a230-889b2202bab1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17caaafd-3fb3-4c3b-b08a-87705ff9c62f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7.6 7.6)
+		(drill 4.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aae412ce-1e9f-4d9a-aeea-4d503f12e362")
+	)
 )
