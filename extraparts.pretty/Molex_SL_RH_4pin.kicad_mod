@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -105,8 +108,8 @@
 		(uuid "e132594a-a911-409b-854b-e36aba5c0a64")
 	)
 	(fp_rect
-		(start -6.5 -1)
-		(end 6.5 12.75)
+		(start -6.75 -1)
+		(end 6.75 12.75)
 		(stroke
 			(width 0.05)
 			(type solid)

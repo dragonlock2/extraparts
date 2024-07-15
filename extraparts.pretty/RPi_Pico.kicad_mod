@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -131,6 +134,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "b74b2ee7-a797-4425-9dc7-05e58895a8c4")
+	)
+	(fp_rect
+		(start -11.5 -26)
+		(end 11.5 26.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e22da563-afb7-44ee-936b-6fe1efa589bc")
 	)
 	(pad "1" smd rect
 		(at -10.09 -24.13)

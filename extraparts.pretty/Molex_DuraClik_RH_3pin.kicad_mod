@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -71,16 +74,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "1915072f-4b4b-4929-9701-a590865008fd")
-	)
-	(fp_line
-		(start -5.25 0)
-		(end 5.25 0)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bef8804f-8e15-41ae-b306-5402cf7a9c12")
 	)
 	(fp_line
 		(start -2.794 -9.5)
@@ -112,6 +105,27 @@
 		(layer "F.SilkS")
 		(uuid "f40e309e-582f-45ea-8e8a-e96793eb4d41")
 	)
+	(fp_line
+		(start -5.25 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bef8804f-8e15-41ae-b306-5402cf7a9c12")
+	)
+	(fp_rect
+		(start -5.5 -10)
+		(end 5.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "278a8552-27ff-4cd6-8f8e-e15980cbe155")
+	)
 	(pad "1" smd rect
 		(at -2 -8.23)
 		(size 1.2 3.2)
@@ -131,14 +145,14 @@
 		(uuid "802f957b-a787-47c8-946c-05b6768be9f1")
 	)
 	(pad "MP" smd rect
-		(at -4.55 -2.75)
-		(size 1.7 5.3)
+		(at -4.55 -2.95)
+		(size 1.7 4.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "d687537d-d7e0-4ae2-9000-3913a16689f6")
 	)
 	(pad "MP" smd rect
-		(at 4.55 -2.75)
-		(size 1.7 5.3)
+		(at 4.55 -2.95)
+		(size 1.7 4.9)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "09babde8-3557-485d-8222-ee687165ad71")
 	)
