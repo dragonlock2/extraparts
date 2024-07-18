@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,10 +62,10 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
-	(attr through_hole)
 	(fp_poly
 		(pts
 			(xy 0.184223 -0.389007) (xy 0.293037 -0.322752) (xy 0.379247 -0.228185) (xy 0.436311 -0.112771) (xy 0.457687 0.016022)
